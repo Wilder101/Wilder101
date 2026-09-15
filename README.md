@@ -26,13 +26,13 @@ The interesting part is not that it is fast. It is that it stopped rendering
 frames, computing the plane once instead of once per frame it appears in. That
 cut the render from 408 GPU-hours to roughly 32, for a deeper zoom.
 
-It also stopped running on one machine. Work is sharded across local Apple
-Silicon and rented GPUs on both Google Cloud Platform (GCP) and Amazon Web
-Services (AWS), split by cost rather than evenly. Every host runs a
-ninety-second preflight before it is given work and terminates itself when it
-finishes or stalls, so a bad node fails loudly instead of billing quietly.
-Shard output is verified bit-identical to a local render rather than assumed
-equivalent.
+It also stopped running on one machine. Work is sharded across a multi-cloud
+fleet: local Apple Silicon and rented GPUs on both Google Cloud Platform
+(GCP) and Amazon Web Services (AWS), split by cost rather than evenly. Every
+host runs a ninety-second preflight before it is given work and terminates
+itself when it finishes or stalls, so a bad node fails loudly instead of
+billing quietly. Shard output is verified bit-identical to a local render
+rather than assumed equivalent.
 
 **[Watch the film](https://youtu.be/b2cpUL_xEc4)** &nbsp;·&nbsp;
 **[Read the code](https://github.com/Wilder101/mandelbrot-deep-zoom)**
