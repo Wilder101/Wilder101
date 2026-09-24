@@ -41,19 +41,17 @@ rather than assumed equivalent.
 
 ### Applied AI Pipeline Architecture
 
-A written record of running generative artificial intelligence in production
-across three small commercial ventures: how the model and the vendor were
-chosen on measured cost and risk, how intellectual property and data licensing
-are handled, and how "good enough to ship" is decided by measurement rather
-than by taste.
+Eight write-ups on running artificial intelligence image generation inside a
+real business, across three small ventures: how I picked a model, what it
+actually cost, how I keep the output clear of other people's copyright, and
+how I decide a file is good enough to print. A few of them walk back numbers
+I had already put in writing, and show the measurement that corrected them.
 
-Eight architecture decision records, several of which retract something I had
-already written down as fact. The through-line is that the useful boundary is
-not whether a model is involved, but whether the output's correctness is
-checkable. Where work is judged, a model is the right tool and a human is the
-gate. Where it makes verifiable claims about the world, the gate has to be
-mechanical. One of the three ventures now runs with no generative model in its
-pipeline at all.
+What I ended up believing: whether a model is in the loop matters less than
+whether you can check its output against something real. A picture only has
+to look right, so a person can judge it. A place name or an elevation is
+either correct or it is not, and a better model does not help. One of the
+three ventures now runs with no image generation in it at all.
 
 **[Read the records](https://github.com/Wilder101/applied-ai-pipeline-architecture)**
 
