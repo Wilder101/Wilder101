@@ -50,8 +50,9 @@ I had already put in writing, and show the measurement that corrected them.
 What I ended up believing: whether a model is in the loop matters less than
 whether you can check its output against something real. A picture only has
 to look right, so a person can judge it. A place name or an elevation is
-either correct or it is not, and a better model does not help. One of the
-three ventures now runs with no image generation in it at all.
+either correct or it is not, and a better model does not help. In one of the
+three, no image model renders the output any more, though like the other two
+it was built with AI assistance throughout.
 
 **[Read the records](https://github.com/Wilder101/applied-ai-pipeline-architecture)**
 
